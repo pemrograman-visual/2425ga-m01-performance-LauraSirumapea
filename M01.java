@@ -42,7 +42,7 @@ public class M01 {
                                     if (nilaihuruf.equals("E")) {
                                         nilaiangka = 0.0;
                                     } else {
-                                        nilaiangka = "0";
+                                        nilaiangka = 0;
                                     }
                                 }
                             }
@@ -60,3 +60,5 @@ public class M01 {
         return String.format("%." + digits + "f", value);
     }
 }
+
+

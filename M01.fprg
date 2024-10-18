@@ -4,9 +4,9 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="laura awise"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:28:33 AM"/>
+        <attribute name="saved" value="2024-10-18 11:31:57 AM"/>
         <attribute name="created" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMDowMjoyOSBBTTsyNzQw"/>
-        <attribute name="edited" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMToyODozMyBBTTs1OzI4NTY="/>
+        <attribute name="edited" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMTozMTo1NyBBTTs2OzI4NTc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -61,7 +61,7 @@
                                                                         <assign variable="nilaiangka" expression="0.0"/>
                                                                     </then>
                                                                     <else>
-                                                                        <assign variable="nilaiangka" expression="&quot;0&quot;"/>
+                                                                        <assign variable="nilaiangka" expression="0"/>
                                                                     </else>
                                                                 </if>
                                                             </else>
