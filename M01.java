@@ -18,7 +18,7 @@ public class M01 {
             if (kredit.equals("---")) {
                 kredit = kredit;
             } else {
-                kredit1 = Integer.parseInt(kredit);
+                kredit1 = Integer.parseDouble(kredit);
             }
             nilaihuruf = input.nextLine();
             if (nilaihuruf.equals("A")) {
@@ -50,7 +50,7 @@ public class M01 {
                     }
                 }
             }
-            performa = Integer.parseInt(kredit) * nilaiangka;
+            performa = Integer.parseDouble(kredit) * nilaiangka;
             System.out.println(toFixed(performa,1));
             kredit = input.nextLine();
         }
