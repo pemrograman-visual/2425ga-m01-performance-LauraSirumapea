@@ -42,7 +42,7 @@ public class M01 {
                                     if (nilaihuruf.equals("E")) {
                                         nilaiangka = 0.0;
                                     } else {
-                                        nilaiangka = "";
+                                        nilaiangka = "0";
                                     }
                                 }
                             }
