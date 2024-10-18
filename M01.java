@@ -8,9 +8,9 @@ public class M01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        double a, aB, b, bC, c, d, e, nilaiangka, performa, indekssementara, performaakhir;
+        double a, aB, b, bC, c, d, e, nilaiangka, performa;
         String kredit, nilaihuruf;
-        int totalkredit, indeks;
+        double totalkredit;
 
         totalkredit = 4.0;
         kredit = input.nextLine();

@@ -4,16 +4,16 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="laura awise"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:48:47 AM"/>
+        <attribute name="saved" value="2024-10-18 11:51:34 AM"/>
         <attribute name="created" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMDowMjoyOSBBTTsyNzQw"/>
-        <attribute name="edited" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMTo0ODo0NyBBTTs5OzI4Njc="/>
+        <attribute name="edited" value="bGF1cmEgYXdpc2U7QVdJU0U7MjAyNC0xMC0xODsxMTo1MTozNCBBTTsxMDsyODk3"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="A, AB, B, BC, C, D, E, nilaiangka, performa, indekssementara, performaakhir" type="Real" array="False" size=""/>
+            <declare name="A, AB, B, BC, C, D, E, nilaiangka, performa" type="Real" array="False" size=""/>
             <declare name="kredit, nilaihuruf" type="String" array="False" size=""/>
-            <declare name="totalkredit, indeks" type="Integer" array="False" size=""/>
+            <declare name="totalkredit" type="Real" array="False" size=""/>
             <assign variable="totalkredit" expression="4.0"/>
             <input variable="kredit"/>
             <while expression="kredit!=&quot;---&quot;">
